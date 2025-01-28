@@ -7,6 +7,7 @@
     <title>Quiz para programadores</title>
     <link rel="stylesheet" href="./AprendendoCSS.css">
 </head>
+
 <body>
     <header>
         <h1>Quiz interativo para Programadores</h1>
@@ -87,17 +88,15 @@
         </section>
         <!--Pergunta 7: Menu suspenso-->
         <section>
+            <h2>
+                Pergunta 7: Selecione o atributo do input que define o seu tipo:
+            </h2>
             <form>
-                <h2>
-                    Pergunta 7: Selecione o atributo do input que define o seu tipo:
-                </h2>
-                <form>
-                    <select name="pergunta7" id="p7">
-                        <option value="id">id</option>
-                        <option value="type">type</option>
-                        <option value="placeholder">placeholder</option>
-                    </select>
-                </form>
+                <select name="pergunta7" id="p7">
+                    <option value="id">id</option>
+                    <option value="type">type</option>
+                    <option value="placeholder">placeholder</option>
+                </select>
             </form>
         </section>
         <!--Pergunta 8: Imagem-->
@@ -181,14 +180,15 @@
                     <label for="comententarios">Comentários: </label>
                     <textarea name="comentarios" id="comentarios" rows="4" cols="50"
                         placeholder="Digite seus comentários aqui"></textarea><br>
-                        <button onclick="alert('Feedback enviado')">Envie o feedback</button>
+                    <button onclick="alert('Feedback enviado')">Envie o feedback</button>
                 </fieldset>
             </form>
         </section>
     </main>
     <footer>
-        <p> &copy; 2025 Quiz de programadores. Todos os direitos reservados</p>
-        <p>Para conhecer outros quizzes <a href="https://google.com" target="_blank">Clique aqui</a></p>
+        <p class="paragrafo-footer"> &copy; 2025 Quiz de programadores. Todos os direitos reservados</p>
+        <p class="paragrafo-footer">Para conhecer outros quizzes <a href="https://google.com" target="_blank">Clique aqui</a></p>
     </footer>
 </body>
+
 </html>
